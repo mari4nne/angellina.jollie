@@ -1,0 +1,572 @@
+
+#container{
+    display: grid;
+    grid-template-areas: "cabecalho cabecalho"
+                          "trem     trem";
+     grid-gap: 0px;
+     grid-template-rows: 100px;
+}
+#cabecalho{
+    grid-area: cabecalho;
+    display: grid;
+    grid-template-areas:"area1   area2"; 
+    grid-template-columns: 990px 990px;
+}
+#area1{
+    grid-area: area1;
+    background-color:#C0C0C0;
+}
+#area2{
+    grid-area: area2;
+    background-color:#C0C0C0;
+}
+#trem{
+    grid-area: trem;
+    display: grid;
+    grid-template-areas:"area3   area4"
+                        "area5   area6";
+                        
+                        grid-template-columns: 990px 990px;
+                        grid-template-rows:600px;         
+                        
+}
+#area3{
+    grid-area: area3;
+    background-color:#A9A9A9;
+    
+}
+#area4{
+    grid-area: area4;
+    background-color:#A9A9A9;
+    
+}
+#area5{
+    grid-area: area5;
+    background-color:#A9A9A9;
+}
+#area6{
+    grid-area: area6;
+    background-color:#A9A9A9;
+   }
+
+img{
+    width: 820;
+    height: 450;
+   margin-left: 10px;
+}
+h1{
+    color: black;
+    font-size: 22;
+    background-color:#C0C0C0;
+    text-align: center;
+}
+    .one{
+        text-align:justify;
+        font-size: 18;
+     }
+     .two{
+        text-align:justify;
+        font-size: 18;
+           
+     }
+     .three{
+        text-align: justify;
+        font-size: 18;
+     }
+     .four{
+        text-align: justify;
+        font-size: 18;
+     }
+     .five{
+        text-align:justify;
+        font-size: 18;
+          
+     }
+     .six{
+        text-align:justify;
+        font-size: 18;
+           
+           
+     }
+     .seven{
+        text-align:justify;
+        font-size: 18;
+       
+        
+     }
+     .eight{
+        text-align:justify;
+        font-size: 18;
+           
+     }
+     .nine{
+        text-align:justify;
+        font-size: 18;
+
+      ;
+     }
+     .ten{
+        text-align:justify;
+        font-size: 18;
+           
+     }
+     .eleven{
+        text-align:justify;
+        font-size: 18;
+     }
+     .twelve{
+        text-align:justify;
+        font-size: 18;
+     }
+     .thirteen{
+        text-align:justify;
+        font-size: 18;
+     }
+     h1{
+        color: black;
+        font-size: 22;
+        background-color:#C0C0C0;
+        text-align: center;
+    }
+    .fourteen{
+        text-align:justify;
+        font-size: 18;
+     }
+     .fifteen{
+        text-align:justify;
+        font-size: 18;
+     }
+
+
+
+     #container {
+        grid-template-columns: 1fr;    
+        grid-template-areas: "cabecalho"
+                             "trem";
+                             grid-template-rows: 60vh 25vh;
+ grid-gap: 0px;
+ grid-template-rows: 100px;
+    }
+#cabecalho{
+    grid-area: cabecalho;
+    display: grid;
+    grid-template-areas:"area1"
+                        "area2"; 
+    grid-template-columns: 1fr;
+}
+#area1{
+    grid-area: area1;
+    background-color:#C0C0C0;
+}
+#area2{
+    grid-area: area2;
+    background-color:#C0C0C0;
+}
+#trem{
+    grid-area: trem;
+    display: grid;
+    grid-template-areas:"area3"
+                        "area4"
+                        "area5"
+                        "area6";
+                        
+                        grid-template-columns: 1fr;
+                        grid-template-rows:600px;         
+                        
+}
+#area3{
+    grid-area: area3;
+    background-color:#A9A9A9;
+    
+}
+#area4{
+    grid-area: area4;
+    background-color:#A9A9A9;
+    
+}
+#area5{
+    grid-area: area5;
+    background-color:#A9A9A9;
+}
+#area6{
+    grid-area: area6;
+    background-color:#A9A9A9;
+   }
+
+img{
+    width: 820;
+    height: 450;
+   margin-left: 10px;
+}
+h1{
+    color: black;
+    font-size: 22;
+    background-color:#C0C0C0;
+    text-align: center;
+}
+    .one{
+        text-align:justify;
+        font-size: 18;
+     }
+     .two{
+        text-align:justify;
+        font-size: 18;
+           
+     }
+     .three{
+        text-align: justify;
+        font-size: 18;
+     }
+     .four{
+        text-align: justify;
+        font-size: 18;
+     }
+     .five{
+        text-align:justify;
+        font-size: 18;
+          
+     }
+     .six{
+        text-align:justify;
+        font-size: 18;
+           
+           
+     }
+     .seven{
+        text-align:justify;
+        font-size: 18;
+       
+        
+     }
+     .eight{
+        text-align:justify;
+        font-size: 18;
+           
+     }
+     .nine{
+        text-align:justify;
+        font-size: 18;
+
+      ;
+     }
+     .ten{
+        text-align:justify;
+        font-size: 18;
+           
+     }
+     .eleven{
+        text-align:justify;
+        font-size: 18;
+     }
+     .twelve{
+        text-align:justify;
+        font-size: 18;
+     }
+     .thirteen{
+        text-align:justify;
+        font-size: 18;
+     }
+     h1{
+        color: black;
+        font-size: 22;
+        background-color:#C0C0C0;
+        text-align: center;
+    }
+    .fourteen{
+        text-align:justify;
+        font-size: 18;
+     }
+     .fifteen{
+        text-align:justify;
+        font-size: 18;
+     }
+    
+
+
+     @media screen and (min-width:768px) {
+        #container {
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "cabecalho"
+                                 "trem";
+     grid-gap: 0px;
+     grid-template-rows: 100px;
+        }
+    }
+    #cabecalho{
+        grid-area: cabecalho;
+        display: grid;
+        grid-template-areas:"area1 area2"; 
+        grid-template-columns: 1fr 1fr;
+    }
+    #area1{
+        grid-area: area1;
+        background-color:#C0C0C0;
+    }
+    #area2{
+        grid-area: area2;
+        background-color:#C0C0C0;
+    }
+    #trem{
+        grid-area: trem;
+        display: grid;
+        grid-template-areas:"area3   area4"
+                            "area5   area6";
+                            
+                            grid-template-columns: 1fr 1fr;
+                            grid-template-rows:600px;         
+                            
+    }
+    #area3{
+        grid-area: area3;
+        background-color:#A9A9A9;
+        
+    }
+    #area4{
+        grid-area: area4;
+        background-color:#A9A9A9;
+        
+    }
+    #area5{
+        grid-area: area5;
+        background-color:#A9A9A9;
+    }
+    #area6{
+        grid-area: area6;
+        background-color:#A9A9A9;
+       }
+    
+    img{
+        width: 820;
+        height: 450;
+       margin-left: 10px;
+    }
+    h1{
+        color: black;
+        font-size: 22;
+        background-color:#C0C0C0;
+        text-align: center;
+    }
+        .one{
+            text-align:justify;
+            font-size: 18;
+         }
+         .two{
+            text-align:justify;
+            font-size: 18;
+               
+         }
+         .three{
+            text-align: justify;
+            font-size: 18;
+         }
+         .four{
+            text-align: justify;
+            font-size: 18;
+         }
+         .five{
+            text-align:justify;
+            font-size: 18;
+              
+         }
+         .six{
+            text-align:justify;
+            font-size: 18;
+               
+               
+         }
+         .seven{
+            text-align:justify;
+            font-size: 18;
+           
+            
+         }
+         .eight{
+            text-align:justify;
+            font-size: 18;
+               
+         }
+         .nine{
+            text-align:justify;
+            font-size: 18;
+    
+          ;
+         }
+         .ten{
+            text-align:justify;
+            font-size: 18;
+               
+         }
+         .eleven{
+            text-align:justify;
+            font-size: 18;
+         }
+         .twelve{
+            text-align:justify;
+            font-size: 18;
+         }
+         .thirteen{
+            text-align:justify;
+            font-size: 18;
+         }
+         h1{
+            color: black;
+            font-size: 22;
+            background-color:#C0C0C0;
+            text-align: center;
+        }
+        .fourteen{
+            text-align:justify;
+            font-size: 18;
+         }
+         .fifteen{
+            text-align:justify;
+            font-size: 18;
+         }
+
+
+
+         @media screen and (min-width:600px) { 
+            #container{
+                        grid-template-columns: 1fr;    
+                        grid-template-areas: "cabecalho"
+                                             "trem";
+                                             grid-template-rows: 60vh 25vh;
+                 grid-gap: 0px;
+                 grid-template-rows: 100px;
+                    }
+                    }
+                #cabecalho{
+                    grid-area: cabecalho;
+                    display: grid;
+                    grid-template-areas:"area1"
+                                        "area2"; 
+                    grid-template-columns: 1fr;
+                }
+                #area1{
+                    grid-area: area1;
+                    background-color:#C0C0C0;
+                }
+                #area2{
+                    grid-area: area2;
+                    background-color:#C0C0C0;
+                }
+                #trem{
+                    grid-area: trem;
+                    display: grid;
+                    grid-template-areas:"area3"
+                                        "area4"
+                                        "area5"
+                                        "area6";
+                                        
+                                        grid-template-columns: 1fr;
+                                        grid-template-rows:600px;         
+                                        
+                }
+                #area3{
+                    grid-area: area3;
+                    background-color:#A9A9A9;
+                    
+                }
+                #area4{
+                    grid-area: area4;
+                    background-color:#A9A9A9;
+                    
+                }
+                #area5{
+                    grid-area: area5;
+                    background-color:#A9A9A9;
+                }
+                #area6{
+                    grid-area: area6;
+                    background-color:#A9A9A9;
+                   }
+                
+                img{
+                    width: 820;
+                    height: 450;
+                   margin-left: 10px;
+                }
+                h1{
+                    color: black;
+                    font-size: 22;
+                    background-color:#C0C0C0;
+                    text-align: center;
+                }
+                    .one{
+                        text-align:justify;
+                        font-size: 18;
+                     }
+                     .two{
+                        text-align:justify;
+                        font-size: 18;
+                           
+                     }
+                     .three{
+                        text-align: justify;
+                        font-size: 18;
+                     }
+                     .four{
+                        text-align: justify;
+                        font-size: 18;
+                     }
+                     .five{
+                        text-align:justify;
+                        font-size: 18;
+                          
+                     }
+                     .six{
+                        text-align:justify;
+                        font-size: 18;
+                           
+                           
+                     }
+                     .seven{
+                        text-align:justify;
+                        font-size: 18;
+                       
+                        
+                     }
+                     .eight{
+                        text-align:justify;
+                        font-size: 18;
+                           
+                     }
+                     .nine{
+                        text-align:justify;
+                        font-size: 18;
+                
+                      ;
+                     }
+                     .ten{
+                        text-align:justify;
+                        font-size: 18;
+                           
+                     }
+                     .eleven{
+                        text-align:justify;
+                        font-size: 18;
+                     }
+                     .twelve{
+                        text-align:justify;
+                        font-size: 18;
+                     }
+                     .thirteen{
+                        text-align:justify;
+                        font-size: 18;
+                     }
+                     h1{
+                        color: black;
+                        font-size: 22;
+                        background-color:#C0C0C0;
+                        text-align: center;
+                    }
+                    .fourteen{
+                        text-align:justify;
+                        font-size: 18;
+                     }
+                     .fifteen{
+                        text-align:justify;
+                        font-size: 18;
+                     }
+        
